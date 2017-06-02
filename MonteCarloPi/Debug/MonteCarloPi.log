@@ -1,4 +1,4 @@
 ﻿  monteCarloPi.cpp
-d:\montecarlopi\montecarlopi\montecarlopi.cpp(24): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+d:\montecarlopi\montecarlopi\montecarlopi.cpp(51): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
   MonteCarloPi.vcxproj -> D:\monteCarloPi\Debug\MonteCarloPi.exe
   MonteCarloPi.vcxproj -> D:\monteCarloPi\Debug\MonteCarloPi.pdb (Partial PDB)
