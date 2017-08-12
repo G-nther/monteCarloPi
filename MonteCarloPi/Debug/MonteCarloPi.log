@@ -1,4 +1,9 @@
 ﻿  monteCarloPi.cpp
-d:\montecarlopi\montecarlopi\montecarlopi.cpp(51): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
+d:\montecarlopi\montecarlopi\montecarlopi.cpp(47): warning C4473: "scanf": nicht genügend Argumente für Formatzeichenfolge übergeben
+  d:\montecarlopi\montecarlopi\montecarlopi.cpp(47): note: Platzhalter und deren Parameter erwarten 1 variadic-Argumente, es wurden aber 0 variadic-Argumente bereitgestellt.
+  d:\montecarlopi\montecarlopi\montecarlopi.cpp(47): note: Das fehlende variadic-Argument "1" ist für die Zeichenfolge "%d" erforderlich.
+d:\montecarlopi\montecarlopi\montecarlopi.cpp(47): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: Siehe Deklaration von "scanf"
+d:\montecarlopi\montecarlopi\montecarlopi.cpp(58): warning C4244: "Argument": Konvertierung von "time_t" in "unsigned int", möglicher Datenverlust
   MonteCarloPi.vcxproj -> D:\monteCarloPi\Debug\MonteCarloPi.exe
   MonteCarloPi.vcxproj -> D:\monteCarloPi\Debug\MonteCarloPi.pdb (Partial PDB)
