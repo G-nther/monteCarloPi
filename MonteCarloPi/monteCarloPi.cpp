@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 
 	for (int i = 1; i < argc; i++)
 	{
-		if (strcmp(argv[i], "-p") || strcmp(argv[i], "--points"))
+		if ((strcmp(argv[i], "-p") == 0) || (strcmp(argv[i], "--points") == 0))
 		{
 			i++;
 			if (i < argc && argv[i][0] != '-')
@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
 				return 1;
 			}
 		}
-		if (strcmp(argv[i], "-f") || strcmp(argv[i], "--file"))
+		if ((strcmp(argv[i], "-f") == 0) || (strcmp(argv[i], "--file") == 0))
 		{
 			writePoints = true;
 		}
